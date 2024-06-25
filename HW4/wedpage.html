@@ -8,24 +8,46 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            scroll-behavior: smooth;
         }
-        .upper{
-            height: 100vh;
+        #upper{
+            ;
             background-color: #6B8A7A;
+
+        }
+        #central{
+
+            background-color: #B7B597;
+
+        }
+        #lower{
+
+            background-color: #DAD3BE;
+
+        }
+        .section{
+            height: 100vh;
             display: flex;
             align-items: center;
             flex-direction: column;
+            padding: 100px 0;
+            justify-content: left;
+            gap: 30px;
         }
         p{
             width: 85vw;
+            text-align: center;
+            font-size: large;
         }
-        span{
-            font-size-adjust: max();
+        a{
+            font-size: xxx-large;
+            text-decoration: none;
+            color: black;
         }
     </style>
 </head>
 <body>
-<div class="upper">
+<div id="upper" class="section">
     <h2>Section Title</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -34,11 +56,34 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo veAssumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         </p>
-    <spen>&darr;</spen>
+    <a href="#central">&darr;</a>
+
 
 </div>
 
-<div class="central"></div>
-<div class="lower"></div>
+<div id="central" class="section">
+    <a href="#upper">&uarr;</a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo ver</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo veAssumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+    <a href="#lower">&darr;</a>
+</div>
+<div id="lower" class="section">
+    <a href="#central">&uarr;</a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo ver</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero Assumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo veAssumenda at ipsam iusto nemo nesciunt odit porro possimus quia quo vero! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    </p>
+
+</div>
 </body>
 </html>
