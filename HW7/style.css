@@ -63,15 +63,15 @@
 }
 
 .central-section iframe{
-    width: 68vw;
-    height: 56vh;
+    width: 62vw;
+    height: 52vh;
 }
 
 .central-section div{
-    width: 68vw;
+    width: 62vw;
     height: 18vh;
     font-family: "KoHo", sans-serif;
-    font-size: 33px;
+    font-size: 4vh;
     font-weight: 400;
 }
 /*----------------------SECTION THREE-----------------------------------*/
@@ -98,7 +98,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 30px;
+    font-size: 3vh;
     font-weight: 400;
 }
 .lower-section button{
@@ -110,6 +110,6 @@
     background: rgba(217, 217, 217, 0.60);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: #6B6666;
-    font-size: 35px;
+    font-size: 3vh;
     font-weight: 400;
 }
