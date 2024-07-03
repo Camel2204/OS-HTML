@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-section{
+    height: 100vh;
+    background-image: url("img/bg-section-top.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem-ipsum{
+    width: 1058.4px;
+    height: 392.8px;
+    background: #FAF9F7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.lorem-ipsum div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    font-family: "KoHo", sans-serif;
+}
+.lorem-ipsum div h2{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+}
+.lorem-ipsum div p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.lorem-ipsum div button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+/*--------------------------SECTION TWO-------------------------------------*/
+
+.central-section{
+    height: 100vh;
+    background-image: url("img/bg-section-center.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.central-section iframe{
+    width: 68vw;
+    height: 56vh;
+}
+
+.central-section div{
+    width: 68vw;
+    height: 18vh;
+    font-family: "KoHo", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+}
+/*----------------------SECTION THREE-----------------------------------*/
+.lower-section{
+    height: 100vh;
+    background-image: url("img/bg-section-center.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "KoHo", sans-serif;
+    gap: 4vw;
+
+    }
+.lower-section img{
+    width: 27vw;
+    height: 21vh;
+}
+.card-one{
+    width: 30vw;
+    height: 70vh;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 400;
+}
+.lower-section button{
+    width: 27vw;
+    height: 7vh;
+    font-family: "KoHo", sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-size: 35px;
+    font-weight: 400;
+}
