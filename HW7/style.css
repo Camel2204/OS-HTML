@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 .top-section{
     height: 100vh;
@@ -75,6 +76,7 @@
     font-weight: 400;
 }
 /*----------------------SECTION THREE-----------------------------------*/
+
 .lower-section{
     height: 100vh;
     background-image: url("img/bg-section-center.png");
@@ -84,6 +86,7 @@
     align-items: center;
     font-family: "KoHo", sans-serif;
     gap: 4vw;
+
 
     }
 .lower-section img{
