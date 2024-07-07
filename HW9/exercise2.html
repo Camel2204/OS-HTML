@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial';
+            text-decoration: none;
+        }
+        .flex{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 25px;
+
+
+        }
+        .top{
+            width: 400px;
+            height: 520px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid #acaaaa;
+
+
+        }
+        .bottom{
+            width: 400px;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid;
+            border-color: #acaaaa;
+            margin-top: 8px;
+            font-size: 16px;
+            font-weight: 700;
+
+        }
+        .fb{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        .fb img{
+            width: 18px;
+            height: 18px;
+            margin-right: 8px;
+
+        }
+        .fb a{
+            font-size: 16px;
+            font-weight: 750;
+            color: #3434d5;
+            margin-bottom: 20px;
+
+        }
+        .link-password{
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 550;
+            color: #1c1cc3;
+            margin-bottom: 20px;
+        }
+        .logo{
+            margin-top: 40px;
+            width: 65%;
+
+        }
+        .top-input{
+            width: 300px;
+            height: 40px;
+            background: #f1f1f1;
+            border-radius: 3px;
+            border-color: #dfdbdb;
+            margin: 40px 100px 5px 100px;
+
+        }
+
+
+        .bottom-input{
+            width: 300px;
+            height: 40px;
+            background: #f1f1f1;
+            border-radius: 3px;
+            border-color: #dfdbdb;
+            margin: 5px 100px 15px 100px;
+        }
+        button{
+            width: 300px;
+            height: 40px;
+            background: #3360fd;
+            border: none;
+            border-radius: 10px;
+            font-family: Arial;
+            font-weight: 700;
+
+            color: white;
+
+
+        }
+        span{
+            margin: 20px 0 30px 0px;
+            font-weight: 800;
+
+            color: gray;
+        }
+        .link-register{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 750;
+            color: #3434d5;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="flex">
+    <div class="top">
+        <img class="logo" src="OIP.jfif" alt="logo">
+        <form>
+            <input  class="top-input" type="text" name="login" placeholder="Номер телефону, ім'я користувача або email">
+            <input  class="bottom-input" type="password" name="password" placeholder="Пароль">
+
+
+        </form>
+        <button> Увійти </button>
+        <span> АБО </span>
+        <div class="fb"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABbElEQVR4nGOwD9z6fyhjhoF2gP2oBwIHPhTtR5NQ4MCHpP1oJg4cmBAMSNzzv7D+xP+GnnP/e6ZfxsCxOQcHXzHqFLLtf9fUS//vP/r8nxAAqRtUHvCK3vn/9IXXBB0+aD2w59DT/6SArsHkgYzyoyQ5ftB5YP32B/+HtAdu3v2A17F3Hnz6v33f4/+bdj6E45yqY4PHA1++/sbp+JPnXv13DNpGspl084BD0Nb/f//9w+mBGYuuk2Uu3TzgHLINb/KZNOfqqAf+j8ZAICIQsiuP/Z+56AYcz15yA28SOnLqBYp6GI7PG6C20NxlN/9TA+QMVDFKLQ/4xe8euh74+OnnwBWj1PDAxatvh7YHNu96NLRLoezKYwPnAXQ8WhMHjsbA1tEkhA9MGm2NBo6WQv9Hi9FA0lPBaEVmP1oTQ8BoMWo/WoxuHS1G7UeL0cDRDs1/fPNiT198xYnbJ10c3EmIVphhoB1gP9I9AABCItM+Lo63dwAAAABJRU5ErkJggg==">
+            <a href="#"><p>Увійти через Facebook</p></a></div>
+        <a href="#" class="link-password"><p>Забули пароль?</p></a>
+    </div>
+    <div class="bottom">
+    <p> Не маєте облікового запису? <a href="#"><span class="link-register">Зареєструйтеся</span></a> </p>
+    </div>
+
+</div>
+</body>
+</html>
