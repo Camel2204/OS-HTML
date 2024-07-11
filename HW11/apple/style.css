@@ -69,22 +69,23 @@ header{
 .tv-home img{
     width: 761px;
     height: 432px;
-    margin: 78px auto 67px auto;
-    animation: small 1.5s linear 1;
+    margin: 78px auto 73px auto;
+    animation: small 2s linear 1;
 
 }
 .tv-home h1{
+    width: 980px;
     color: #1D1D1F;
     text-align: center;
     font-family: "Inter", sans-serif;
-    font-size: 96px;
+    font-size: 88px;
     font-style: normal;
     font-weight: 700;
-    line-height: 96px; /* 100% */
+    line-height: 98px; /* 100% */
     letter-spacing: -1.44px;
-    margin-bottom: 52px;
+    margin-bottom: 16px;
     /*width: 1040px;*/
-    animation: ap 1.5s linear 1;
+    animation: ap 2s linear 1;
 }
 .tv-home p{
     color: #86868B;
@@ -96,7 +97,7 @@ header{
     line-height: 28px; /* 129.855% */
     letter-spacing: 0.216px;
     width: 975px;
-    animation: ap 1.5s linear 1;
+    animation: ap 2s linear 1;
 }
 @keyframes left {
     0%{
