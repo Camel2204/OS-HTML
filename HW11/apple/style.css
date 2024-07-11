@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav ul{
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 35px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-size: 12px;
+}
+nav>svg{
+    width: 14px;
+    height: 44px;
+    }
+header{
+    width: 100vw;
+    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+    background: rgba(245, 245, 247, 0.60);
+    backdrop-filter: blur(10px);
+    padding-bottom: 28px;
+    animation: left 0.4s linear 1;
+}
+.panel{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+}
+.panel a{
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #1D1D1F;
+    font-size: 12px;
+    line-height: 16px; /* 135.45% */
+    letter-spacing: -0.12px;
+}
+.tv-home{
+    width: 100vw;
+    height: 903px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #F5F5F7;
+    align-items: center;
+
+}
+.tv-home img{
+    width: 761px;
+    height: 432px;
+    margin: 78px auto 67px auto;
+    animation: small 1.5s linear 1;
+
+}
+.tv-home h1{
+    color: #1D1D1F;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; /* 100% */
+    letter-spacing: -1.44px;
+    margin-bottom: 52px;
+    /*width: 1040px;*/
+    animation: ap 1.5s linear 1;
+}
+.tv-home p{
+    color: #86868B;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 21.563px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+    width: 975px;
+    animation: ap 1.5s linear 1;
+}
+@keyframes left {
+    0%{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes small {
+    0%{
+        transform: scale(1.2) translateY(-100px);
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1) translateY(0);
+    }
+}
+@keyframes ap {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
