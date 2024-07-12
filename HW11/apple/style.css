@@ -136,6 +136,10 @@ header{
     }
 }
 /*------------------------------------------services-------------------------------------------------------*/
+.cervices-body{
+    background-color: black;
+}
+
 .cervices{
     background-color: #000;
     width: 100vw;
@@ -194,4 +198,74 @@ header{
 
 .header-cervices>a>.apple-tv{
     gap: 15px;
+}
+main{
+    height: 720px;
+    background: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+main>h1{
+    color: #F5F5F7;
+    width: 725px;
+    height: 192px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 87px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; /* 109.402% */
+    letter-spacing: -1.344px;
+    margin: 91px auto 25px auto;
+}
+
+main>p{
+    color: #F5F5F7;
+    font-family: "Inter", sans-serif;
+    width: 850px;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 129.855% */
+    letter-spacing: 0.216px;
+    margin: 0 auto 100px auto;
+}
+.panel-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 148px;
+    opacity: 0.999;
+    background: #161617;
+    gap: 90px;
+}
+main>div>p{
+    color: #F5F5F7;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 145.869% */
+}
+main>div>button{
+    width: 134px;
+    height: 46px;
+    border-radius: 980px;
+    border: 1px solid #FFF;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.999;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 117.647% */
+    letter-spacing: -0.374px;
 }
