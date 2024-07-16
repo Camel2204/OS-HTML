@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,11 +7,14 @@
     font-family: "Roboto", sans-serif;
 }
 header{
-    height: 10vh;
+    height: 132px;
+    width: 100vw;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
 }
 header ul{
     list-style-type: none;
@@ -25,69 +29,186 @@ header ul a{
     color: #000;
 }
 main{
-    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flextop{
+    width: 1440px;
+    height: 892px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FBF6F3;
-    gap: 3vw;
+    gap: 45px;
+
 }
 .box-img{
-    width: 40vw;
-    height: 64vh;
+    height: 852px;
     display: flex;
     justify-content: center;
     align-items: center;
 
+
 }
 .box-img img{
-    width: 95%;
-    /*height: 100%;*/
+    width: 581px;
+   height: 652px;
 }
 .box-text ul{
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
-    font-size: 1.8vh;
+    gap: 27px;
+    font-size: 13px;
     font-weight: 400;
 }
 .box-text{
-    width: 23.3vw;
-    height: 33vh;
+    width: 336px;
     margin: 0 0 13vh 0;
+    width: 336px;
     }
 .box-text h1{
+    width: 336px;
     -webkit-text-stroke-width: 0.5;
     -webkit-text-stroke-color: #000;
-    font-size: 6.6vh;
+    font-size: 48px;
     font-weight: 400;
+    color: #000;
+
+
+
+
 
 
 }
 .box-text h2{
     -webkit-text-stroke-width: 0.5;
     -webkit-text-stroke-color: #000;
-    font-size: 6.6vh;
+    font-size: 48px;
     font-weight: 400;
     padding-top: 0.7vh;
 }
 .prace{
     color: #AD0306;
-    font-size: 5vh;
-    padding-top: 3.6vh;
-    padding-bottom: 3.6vh;
+    font-size: 36px;
+    padding-top: 23px;
+    padding-bottom: 52px;
     font-weight: 400;
 }
 .one{
-    padding-top: 4.6vh;
+    padding-top: 62px;
     -webkit-text-stroke-width: 0.10000000149011612;
     -webkit-text-stroke-color: #000;
-    font-size: 2.5vh;
+    font-size: 18px;
 }
 .two{
     -webkit-text-stroke-width: 0.10000000149011612;
     -webkit-text-stroke-color: #000;
-    font-size: 2.5vh;
+    font-size: 18px;
+}
+/*--------------------second section------------------------------*/
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1024px;
+
+}
+h3 {
+    width: 472px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    color: #142823;
+    text-align: center;
+    display: block;
+    margin: 212px auto 57px auto;
+
+}
+.lower{
+    height: 637px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    position: relative;
+}
+.card{
+    width: 285px;
+    height: 331px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 32px;
+    background: var(--White, #FFF);
+    /* 200 */
+    box-shadow: 0px 4px 20px 0px rgba(139, 139, 139, 0.10);
+
+    Show 3 more colors
+
+    Frame 339
+    Image · 1,040 x 896
+
+}
+.card>h5{
+    color: var(--Neutral--50, #282828);
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card>p{
+    color: var(--Primary-600, #106FDF);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #efefef;
+    border-radius: 40px;
+    width: 165px;
+    height: 60px;
+    gap: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 115px;
+    background-color: white;
+}
+.left>span{
+    font-size: 25px;
+    padding: 0 0 5px 0;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #efefef;
+    border-radius: 40px;
+    width: 165px;
+    height: 60px;
+    gap: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 115px;
+    background-color: white;
+}
+.right>span{
+    font-size: 25px;
+    padding: 0 0 5px 0;
 }
