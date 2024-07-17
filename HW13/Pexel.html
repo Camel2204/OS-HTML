@@ -30,7 +30,7 @@
             align-items: center;
 
         }
-        .logo>img{
+        header>div.logo>img{
             height: 75px;
             padding: 0;
             margin: 0;
@@ -108,7 +108,7 @@
             padding: 0 6px 0 3px;
             margin-left: 50px;
         }
-     form>button{
+     form>button:first-child{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -120,7 +120,7 @@
             font-weight: 600;
             border: 1px solid gray;
         }
-     .search>form>input{
+     input[type="search"]{
          width: 520px;
          height: 45px;
          padding-left: 10px;
@@ -128,7 +128,14 @@
          font-weight: 600;
          border: none;
      }
-     .search>form>a>img{
+     input:focus{
+         outline: none;
+     }
+        form>button:last-child{
+            border: none;
+            background-color: white;
+        }
+     .search>form>button>a>img{
          width: 30px;
      }
      video{
@@ -163,7 +170,7 @@
         <form>
 <button><img src="media/video.svg" alt="icon"> Відео </button>
             <input type="search" name="search" id="search" placeholder="Пошук безкоштовних відео">
-            <a href="#"><img src="media/search.svg" alt="search"></a>
+            <button><a href="#"><img src="media/search.svg" alt="search"></a> </button>
         </form>
 
     </div>
