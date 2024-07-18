@@ -176,12 +176,43 @@ h2{
     padding: 213px 0 33px 0;
     position: absolute;
     left: 26px;
-
-
 }
 .card img{
-
     position: absolute;
-
     top: -40px;
+}
+/*------------------in-three________________________*/
+.in-three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
+}
+.box1 p{
+    color: #777;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.box1 h4{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+    width: 350px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.in-three img{
+    margin-left: 65px;
 }
