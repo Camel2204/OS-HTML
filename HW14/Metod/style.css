@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F7F6F4;;
 
 }
 .box{
@@ -135,4 +136,52 @@ h1{
     font-weight: 400;
     letter-spacing: 0.4px;
     margin-top: 79px;
+}
+h2{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-top: 79px;
+}
+/*--------------------in-two--------------------------------------*/
+.in-two{
+    width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    width: 255px;
+    height: 278px;
+    background-color: #FFF;;
+    margin-top: 129px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.card p{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    padding: 213px 0 33px 0;
+    position: absolute;
+    left: 26px;
+
+
+}
+.card img{
+
+    position: absolute;
+
+    top: -40px;
 }
