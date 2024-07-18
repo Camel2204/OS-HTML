@@ -92,7 +92,7 @@ header h4{
     width: 260px;
 }
 .in-one p{
-    color: var(--1, #8E88C1);
+    color: var(1, #8E88C1);
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
@@ -194,9 +194,7 @@ header h4{
     gap: 3px;
 }
 .text p{
-    40+
-
-    width: 38.098px;
+    width: 38px;
     color: #FFF;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -206,13 +204,13 @@ header h4{
 }
 
 .text h4{
-    color: var(--1, #8E88C1);
+    color: var(1, #8E88C1);
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 150% */
-    letter-spacing: 0.8p
+    letter-spacing: 0.8px;
 }
 .middle h2{
     color: #FFF;
@@ -226,7 +224,7 @@ header h4{
     margin-top: 85px;
 }
 .middle p{
-    color: var(--1, #8E88C1);
+    color: var(1, #8E88C1);
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -252,12 +250,12 @@ header h4{
     width: 209px;
     height: 206px;
     border-radius: 8px;
-    border: 2px solid var(--1, #8E88C1);
+    border: 2px solid var(1, #8E88C1);
     padding-top: 44px;
 
 }
 .stand p{
-    color: var(--1, #8E88C1);
+    color: var(1, #8E88C1);
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: 16px;
