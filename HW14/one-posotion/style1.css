@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 header{
     display: flex;
@@ -17,7 +18,11 @@ header{
     width: 1400px;
     height: 113px;
     background-color: #24204A;
-    border-bottom: 4px solid black;
+    box-shadow: -1px 8px 2px 0px rgba(0,0,0,0.86);
+    -webkit-box-shadow: -1px 8px 2px 0px rgba(0,0,0,0.86);
+    -moz-box-shadow: -1px 8px 2px 0px rgba(0,0,0,0.86);
+    position: sticky;
+    top: 0;
 }
 nav ul{
     display: flex;
@@ -45,7 +50,7 @@ header h4{
     font-weight: 700;
     line-height: normal;
     opacity: 0.6;
-    padding-left: 115px;
+    padding-left: 125px;
 }
 /*-------------------------section top------------------------*/
 .top{
@@ -56,6 +61,7 @@ header h4{
     justify-content: center;
     align-items: center;
     gap: 208px;
+    margin-top: 5px;
 }
 .lamp{
     display: flex;
@@ -64,13 +70,11 @@ header h4{
     width: 375px;
     height: 411px;
     background-color: #827EAC;
-    position: relative;
+
 
 }
 .lamp img{
-    position: absolute;
-    right: -35px;
-    top: 13px;
+padding: 40px 0 0 20px;
 }
 .in-one{
     width: 570px;
@@ -140,7 +144,7 @@ header h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 125px;
 }
 .card{
     display: flex;
@@ -238,7 +242,7 @@ header h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 28px;
     margin-top: 53px;
 
 }
@@ -265,4 +269,23 @@ header h4{
     line-height: 20px; /* 125% */
     letter-spacing: 0.8px;
     width: 178px;
+}
+/*------------------------section bottom----------------*/
+.bottom{
+    width: 1400px;
+    height: 764px;
+    background-color: #071341;
+}
+iframe{
+    width: 1400px;
+    height: 664px;
+}
+.bottom p{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+    margin: 35px 0 0 652px;
 }
