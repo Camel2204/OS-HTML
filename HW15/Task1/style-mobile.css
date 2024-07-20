@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px){
+   h2{
+       font-size: 2em;
+   }
+    header{
+        height: 20vh;
+    }
+    .flex{
+       flex-wrap: wrap;
+
+    }
+    main{
+        width: 100vw;
+        height: 59vh;
+        margin-bottom: 8px;
+    }
+    section{
+        width: 100vw;
+        height: 20vh;
+    }
+}
