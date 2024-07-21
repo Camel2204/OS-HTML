@@ -1,0 +1,16 @@
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+    .box{
+        justify-content: space-between;
+        align-items: center;
+    }
+    section{
+        width: 23.3%;
+        height: 250px;
+        justify-content: center;
+        align-items: start;
+        padding-top: 40px;
+    }
+    section h3{
+        transform: rotate(270deg);
+    }
+}
