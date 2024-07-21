@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px){
+    .box{
+        flex-direction: column;
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+        padding: 32px 16px;
+    }
+    .content{
+        width: 353px;
+    }
+    header{
+        margin: 0 0 16px 0;
+    }
+    header button:first-child{
+        width: 143px;
+        height: 36px;
+        font-size: 14px;}
+    header a{
+        font-size: 14px;
+    }
+    h1{
+        width: 300px;
+        font-size: 32px;
+        margin: 0 0 16px 0;
+
+    }
+    .content ul{
+        margin: 0 0 16px 30px;
+    }
+    .content li{
+        font-size: 18px;
+    }
+    .content button:last-child{
+        margin: 0 0 16px 0;
+    }
+    iframe{
+    width: 343px;
+        height: 197px;
+    }
+    .content{
+        height: 400px;
+    }
+
+
+}
