@@ -1,1 +1,28 @@
-@media screen and (min-width: 480px) and (max-width: 1023px)
+@media screen and (min-width: 480px) and (max-width: 1023px){
+   .flex{
+
+       height: 398px;
+   }
+    .flex h1{
+        font-size: 32px;
+        margin-top: 78px;
+    }
+    .flex>p{
+        width: 762px;
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .block{
+        margin-top: 30px;
+    }
+
+    .block button{
+        width: 131px;
+        margin-right: 32px;
+    }
+/*.flex{*/
+/*    width: 768px;*/
+/*    height: 398px;*/
+/*    margin: 0 auto;*/
+/*}*/
+}
