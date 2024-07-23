@@ -1,0 +1,19 @@
+@media screen and (max-width: 480px){
+    .block{
+        flex-direction: column;
+        margin: 0 auto 0 auto;
+    }
+    .card{
+        width: 343px;
+        height: 332px;
+        margin-bottom: 40px;
+
+    }
+    .card:first-child{
+        margin-top: 32px;
+    }
+    .card img{
+        width: 343px;
+    }
+
+}
