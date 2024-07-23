@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task5</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header{
+      grid-area: header;
+      background-color: lightgray;
+    }
+    .first{
+      grid-area: first;
+      background-color: dimgrey;
+    }
+    .second{
+      grid-area: second;
+      background-color: darkgray;
+    }
+    .third{
+      grid-area: third;
+      background-color: dimgrey;
+    }
+    .fourth{
+      grid-area: fourth;
+      background-color: darkgray;
+    }
+    .fifth{
+      grid-area: fifth;
+      background-color: dimgrey;
+    }
+    footer{
+      grid-area: footer;
+      background-color: lightgray;
+    }
+    .grid{
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 3fr 1fr;
+      grid-template-areas:
+      'header header header header header'
+      'first second third fourth fifth'
+      'footer footer footer footer footer';
+    }
+    @media screen and (max-width: 480px) {
+      .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+  'header header'
+  'second first'
+  'third fourth'
+  'fifth fifth'
+  'footer footer';
+      }
+      .third{
+        border-bottom: 1px solid white;
+      }
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="grid">
+  <header></header>
+  <section class="first"></section>
+  <section class="second"></section>
+  <section class="third"></section>
+  <section class="fourth"></section>
+  <section class="fifth"></section>
+  <footer></footer>
+
+</div>
+
+
+
+
+</body>
+</html>

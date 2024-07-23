@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .grid{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 2.5fr;
+            grid-template-areas:
+            'header header'
+            'content1 aside'
+            'content1 aside'
+            'content2 aside'
+            'content2 address'
+            'content3 address'
+            'content3 address'
+            'footer footer';
+        }
+        header{
+            grid-area: header;
+            background-color: #5e5c5c;
+        }
+        .content1{
+            grid-area: content1;
+            background-color: #594d4d;
+            color: white;
+        }
+        .content2{
+            grid-area: content2;
+            background-color: #6a2d2d;
+            color: white;
+        }
+        .content3{
+            grid-area: content3;
+            background-color: #3c1212;
+            color: white;
+        }
+        aside{
+            grid-area: aside;
+            background-color: brown;
+            color: white;
+        }
+        address{
+            grid-area: address;
+            background-color: #320202;
+            color: white;
+
+        }
+        footer{
+            grid-area: footer;
+            background-color: gray;
+        }
+        header, .content1, .content2, .content3, aside, address, footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h3{
+            font-size: 30px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="grid">
+    <header><h3>Header</h3></header>
+    <section class="content1"><h3>content - 1</h3></section>
+    <section class="content2"><h3>content - 2</h3></section>
+    <section class="content3"><h3>content - 3</h3></section>
+    <aside><h3>Spam - 1</h3></aside>
+    <address><h3>Spam - 2</h3></address>
+    <footer><h3>Footer</h3></footer>
+
+
+
+</div>
+
+
+
+</body>
+</html>

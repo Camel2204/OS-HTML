@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task6</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .grid{
+      height: 100vh;
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+      'header header'
+      'main main'
+      'section aside'
+      'footer footer';
+    }
+    header{
+      grid-area: header;
+      background-color: lightgray;
+    }
+    main{
+      grid-area: main;
+      background-color: gray;
+    }
+    section{
+      grid-area: section;
+      background-color: #aca8a8;
+    }
+    aside{
+      grid-area: aside;
+      background-color: rgba(135, 53, 53, 0.57);
+    }
+    footer{
+      grid-area: footer;
+      background-color: lightgray;
+    }
+@media screen and (max-width: 480px) {
+  .grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      'header'
+      'main'
+      'section'
+      'aside'
+      'footer';
+
+  }
+
+}
+
+  </style>
+
+
+
+
+</head>
+<body>
+<div class="grid">
+  <header></header>
+  <main></main>
+  <section></section>
+  <aside></aside>
+  <footer></footer>
+</div>
+
+</body>
+</html>
