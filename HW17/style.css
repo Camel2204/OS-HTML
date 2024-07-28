@@ -6,13 +6,7 @@
 
 
 
-header .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    height: 15vh;
-}
+
 .fs-4{
     color: green;
     font-weight: 600;
@@ -46,18 +40,8 @@ header .container{
     z-index: 3;
 
 }
-.telephone{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 7px 0 0 680px;
-}
-.telephone h6{
-    font-family: "Inter", sans-serif;
-    margin: 0;
-    padding-right: 15px;
-    color: rgba(7, 74, 7, 0.88);
-}
+
+
 .carousel-item>img{
     height: 83vh;
     object-fit: cover;
@@ -82,6 +66,7 @@ header .container{
     justify-items: center;
     align-items: center;
     padding-top: 20px;
+    position: relative;
 
 }
 
@@ -99,30 +84,45 @@ header .container{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 450px;
-    left: 130px;
+    top: 470px;
+    left: 10px;
 }
 .discount1>p, .discount2>p, .discount3>p, .discount4>p {
-    margin-bottom: 0;
+    margin-top: 0;
     color: red;
     text-decoration: line-through;
 
 }
-.discount1>h5, .discount2>h5, .discount3>h5, .discount4>h5{
+.discount1>span, .discount2>span, .discount3>span, .discount4>span{
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 0;
-
 }
+
 .discount1>img, .discount2>img, .discount3>img, .discount4>img{
     height: 45px;
     width: 45px;
     position: absolute;
-    top: -472px;
-    left: -110px;
+    top: -480px;
+    left: -20px;
+}
+.hot_link{
+    display: block;
+    padding: 20px 0 0 40px;
+}
+.hot_link a{
+    text-decoration: none;
+    color: blue;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
 }
 .all_info{
     display: flex;
     justify-content: start;
     align-items: start;
+    margin-top: 20px;
 
 }
 .info{
@@ -205,4 +205,119 @@ main p, h4{
 .card-group{
     padding: 3px 60px 10px 90px;
 }
+/*--------------------------------------------konakt---------------------------------------*/
 
+.contact{
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    margin: 130px auto 100px auto;
+    position: relative;
+}
+.contact>h1{
+    margin: 0 auto 15px auto;
+    font-family: "Pacifico", cursive;
+    color: blue;
+    font-size: 70px;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 65px;
+}
+.contact>p{
+    font-family: "Inter", sans-serif;
+    margin: 5px 0 5px 20px;
+}
+.contact>span{
+    display: block;
+    height: 30px;
+    width: 100%;
+    background-color: #4e681a;
+
+}
+.contact>span>p{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.socseti{
+    margin: 1px 0 1px 230px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 12px;
+
+}
+.socseti img{
+    width: 35px;
+
+}
+/*----------------------------porady------------------------*/
+.vstup{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.vstup p, h5, h6{
+    font-family: "Inter", sans-serif;
+    margin-left: 90px;
+    padding: 0;
+    margin-bottom: 4px;
+}
+vstup1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.vstup1>ul{
+    margin-left: 90px;
+    font-family: "Inter", sans-serif;
+}
+.vstup1>p{
+    margin-left: 90px;
+    font-family: "Inter", sans-serif;
+}
+.porady-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.porady-card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.porady-card2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 100vw;
+    height: 70vh;
+    gap: 10px;
+
+}
+.porady-card2>ol{
+    width: 52%;
+    height: 430px;
+    background-color: #dcd9d9;
+    border-radius: 10px;
+    padding-top: 7px;
+    margin: 10px 0 10px 55px;
+    font-family: "Inter", sans-serif;
+
+}
+.porady-card2>img{
+    height: 430px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
